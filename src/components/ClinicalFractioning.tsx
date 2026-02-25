@@ -98,7 +98,7 @@ export function ClinicalFractioning({
                                         step="1"
                                         value={patient.c_alvo}
                                         onChange={(e) => handlePatientChange(patient.id, 'c_alvo', e.target.value)}
-                                        className="pro-input font-mono bg-white"
+                                        className="pro-input font-mono shadow-none"
                                         placeholder="000"
                                     />
                                 </div>
@@ -112,7 +112,7 @@ export function ClinicalFractioning({
                                         step="1"
                                         value={patient.v_frasco}
                                         onChange={(e) => handlePatientChange(patient.id, 'v_frasco', e.target.value)}
-                                        className="pro-input font-mono bg-white"
+                                        className="pro-input font-mono shadow-none"
                                         placeholder="00"
                                     />
                                 </div>

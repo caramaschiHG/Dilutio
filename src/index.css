@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 @theme {
   --color-clinical-bg: #fafafa;
   --color-clinical-900: #09090b;
